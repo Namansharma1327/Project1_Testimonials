@@ -1,0 +1,60 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 0,5s;
+}
+.image-div{
+    margin-top: -5px;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+.image:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px  #87d9f9;
+    transition: 0.2s;
+}
+.name-div{
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;   
+    height: 40px;
+    margin-top: -1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+.job-div{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 500; 
+    opacity: 0.70 ;
+    margin-top: 1px;
+    
+}
+.text{
+    margin-top: 7px;
+    margin-bottom: 8px;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    opacity: 0.90;
+}
+
+
+.icon-left{
+    color: #1686CD;
+    font-size: smaller;
+}
+.icon-right{
+    color: #1686CD;
+    font-size: smaller;
+}
+
+
+
